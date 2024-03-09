@@ -1,0 +1,48 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.footer-logo {
+    margin-bottom: 100px;
+    margin-left: 40px;
+    /* Ajustez la taille de la police selon vos préférences */
+    font-weight: bold;
+    width: 95px;
+    /* Ajustez la largeur du logo selon vos préférences */
+}
+
+.footer-credits {
+    margin-top: 100px;
+    margin-left: 370px;
+}
+
+.footer-organisation {
+    margin-bottom: 100;
+    font-weight: bold;
+}
+
+.footer-abonnement {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-contact {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-termes {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+}

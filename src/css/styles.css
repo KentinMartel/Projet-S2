@@ -2,4 +2,7 @@
 
 
 
-@import "/css/components/faq.css"
+@import "/css/components/faq.css";
+@import "/src/css/vendors/normalize.css";
+@import "/src/css/base/main.css";
+@import "/src/css/layout/footer.css";

@@ -1,0 +1,8 @@
+.degrade {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #b2daff);
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 543vh;
+}
