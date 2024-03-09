@@ -39,3 +39,19 @@ body {
 .faq-answer.active {
     display: block;
 }
+
+.circle {
+    width: 300px; /* Largeur du cercle */
+    height: 300px; /* Hauteur du cercle */
+    background-color: #0099CC; /* Couleur bleue du cercle */
+    border-radius: 50%; /* Arrondit les coins pour créer un cercle */
+    position: relative; /* Positionnement relatif pour permettre le décalage */
+    left: -50px; /* Décalage horizontal pour créer l'effet coupé */
+    top: -50px; /* Décalage vertical pour créer l'effet coupé */
+  }
+
+  .circle-container {
+    width: 200px; /* Largeur du conteneur externe */
+    height: 200px; /* Hauteur du conteneur externe */
+    overflow: hidden; /* Cache la partie extérieure du cercle */
+  }

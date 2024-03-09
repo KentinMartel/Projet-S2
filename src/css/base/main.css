@@ -17,3 +17,15 @@
     text-align: center;
     margin-top: 20px;
 }
+
+.texte-gras {
+    font-family: "inter";
+    font-size: 20px;
+    font-weight: bold;
+    margin: center;
+    padding: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
