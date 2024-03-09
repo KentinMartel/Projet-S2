@@ -19,15 +19,18 @@ header {
     color: #fff;
     margin-right: 20px;
     text-decoration: none;
+    font-family: "inter";
 }
 
 .header-abonnement {
     color: #fff;
     margin-right: 20px;
     text-decoration: none;
+    font-family: "inter";
 }
 
 .header-connexion {
     color: #fff;
     text-decoration: none;
+    font-family: "inter";
 }
