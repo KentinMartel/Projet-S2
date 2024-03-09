@@ -21,12 +21,14 @@
     margin: auto 0;
     margin-bottom: 10px;
     font-size: 15px;
+    font-family: "inter";
 }
 
 .footer-column {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    font-family: "inter";
     /* Aligne les éléments à droite */
 }
 
@@ -34,6 +36,7 @@
     margin-bottom: 30px;
     font-weight: bold;
     white-space: nowrap;
+    font-family: "inter";
 }
 
 .footer-abonnement,
@@ -42,6 +45,7 @@
     text-decoration: none;
     color: #fff;
     margin-bottom: 10px;
+    font-family: "inter";
     /* Ajoute de l'espace entre les liens */
     white-space: nowrap;
     /* Empêche le texte de se diviser sur plusieurs lignes */

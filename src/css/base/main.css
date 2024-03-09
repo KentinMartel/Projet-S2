@@ -42,3 +42,13 @@
     margin-top: 20px;
 }
 
+.titre-couleur2 {
+    font-family: "inter";
+    font-size: 40px;
+    color: #58C4FF;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
