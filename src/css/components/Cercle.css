@@ -1,0 +1,24 @@
+.circle {
+    width: 1000px;
+    /* Largeur du cercle */
+    height: 1000px;
+    /* Hauteur du cercle */
+    background: radial-gradient(circle, #0067A1, #57C3FF);
+    /* Couleur bleue du cercle */
+    border-radius: 50%;
+    /* Arrondit les coins pour créer un cercle */
+    position: absolute;
+    /* Positionnement relatif pour permettre le décalage */
+    left: 900px;
+    /* Décalage horizontal pour créer l'effet coupé */
+    top: -400px;
+    /* Décalage vertical pour créer l'effet coupé */
+    z-index: -1;
+    /* Assurez-vous que le cercle est derrière les autres éléments */
+}
+
+
+.container {
+    position: relative;
+    z-index: 1;
+}
