@@ -1,0 +1,33 @@
+header {
+
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.logo-header {
+    width: 120px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.header-accueil {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.header-abonnement {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.header-connexion {
+    color: #fff;
+    text-decoration: none;
+}
