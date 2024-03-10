@@ -162,3 +162,28 @@
     margin-left: 100px;
     box-shadow: 0 0 10px #57C3FF, 0 0 20px rgba(110, 140, 213, 0.3), 0 0 30px rgba(110, 140, 213, 0.2);
 }
+
+.barre-horizontal1 {
+    width: 7%;
+    height: 9px;
+    /* Ajustez la hauteur selon vos besoins */
+    background-color: #000000;
+    /* Couleur de la barre */
+    position: relative;
+    left: 390px;
+    top: -270px;
+    /* Marge entre les barres, ajustez selon vos besoins */
+}
+
+.barre-horizontal2 {
+    width: 7%;
+    height: 9px;
+    position: relative;
+    left: 978px;
+    top: -363px;
+    /* Ajustez la hauteur selon vos besoins */
+    background-color: #000000;
+    /* Couleur de la barre */
+    margin-bottom: 10px;
+    /* Marge entre les barres, ajustez selon vos besoins */
+}
