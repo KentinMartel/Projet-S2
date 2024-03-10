@@ -46,10 +46,33 @@
 
 .mockup3 {
     position: relative;
-    top: 50px;
-    left: 640px;
-    position: center;
-    width: 15%;
+    left: 650px;
+    top: -370px;
+    width: 13%;
 
+
+}
+
+.icone1 {
+    position: absolute;
+    left: 500px;
+    top: 1970px;
+    width: 4%;
+
+}
+
+.icone2 {
+    position: absolute;
+    left: 507px;
+    top: 2070px;
+    width: 3%;
+
+}
+
+.icone3 {
+    position: absolute;
+    left: 505px;
+    top: 2150px;
+    width: 4%;
 
 }

@@ -149,7 +149,7 @@
     font-family: "inter";
     font-size: 23px;
     font-weight: bold;
-    top: 1700px;
+    top: 1600px;
     left: 475px;
     color: white;
     position: absolute;
@@ -171,7 +171,7 @@
     /* Couleur de la barre */
     position: relative;
     left: 390px;
-    top: -270px;
+    top: -370px;
     /* Marge entre les barres, ajustez selon vos besoins */
 }
 
@@ -180,7 +180,7 @@
     height: 9px;
     position: relative;
     left: 978px;
-    top: -363px;
+    top: -463px;
     /* Ajustez la hauteur selon vos besoins */
     background-color: #000000;
     /* Couleur de la barre */
