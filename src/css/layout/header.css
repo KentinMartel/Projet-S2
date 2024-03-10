@@ -2,22 +2,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 5%; /* Utilisez un pourcentage pour un padding responsive */
+    padding: 10px 5%; 
 }
 
 .navbar {
     display: flex;
     justify-content: flex-end;
-    gap: 1%; /* Espacement entre les éléments du menu, adaptatif en fonction de la largeur de l'écran */
-    flex-grow: 1; /* Permet aux liens de la navbar de prendre tout l'espace disponible */
+    gap: 1%; 
+    flex-grow: 10;
+    align-items: center; 
 }
 
-.navbar a {
-    text-decoration: none;
-    font-family: "inter", sans-serif;
-    padding: 10px 0; /* Padding vertical pour augmenter la zone cliquable */
-    transition: color 0.3s; /* Transition douce pour les changements d'état au survol */
-}
+
 
 .logo-header {
     width: 120px;
@@ -57,14 +53,14 @@ header {
 }
 
 .header-connexion {
-    color: #fff;
-    text-decoration: none;
-    font-family: "inter";
-    z-index: 2;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    padding: 1px 20px; /* Ajustez selon la taille souhaitée */
+    color: white; /* Couleur du texte */
+    border: 2px solid white; /* Style du contour : épaisseur, style, couleur */
+    border-radius: 20px; /* Rayon des coins du bouton */
+    text-decoration: none; /* Enlève le soulignement des liens */
+    transition: background-color 0.3s; /* Pour un effet de survol */
+    display: inline-block; /* Pour appliquer padding et autres propriétés de bloc */
+    cursor: pointer; /* Change le curseur pour indiquer qu'il est cliquable */
 }
 
 .header-connexionnoir {
@@ -72,10 +68,13 @@ header {
     text-decoration: none;
     font-family: "inter";
     z-index: 2;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    padding: 1px 20px; /* Ajustez selon la taille souhaitée */
+    border: 2px solid black; /* Style du contour : épaisseur, style, couleur */
+    border-radius: 20px; /* Rayon des coins du bouton */
+    text-decoration: none; /* Enlève le soulignement des liens */
+    transition: background-color 0.3s; /* Pour un effet de survol */
+    display: inline-block; /* Pour appliquer padding et autres propriétés de bloc */
+    cursor: pointer; /* Change le curseur pour indiquer qu'il est cliquable */
 }
 
 
