@@ -1,7 +1,7 @@
 .circle {
-    width: 1000px;
+    width: 1350px;
     /* Largeur du cercle */
-    height: 1000px;
+    height: 1250px;
     /* Hauteur du cercle */
     background: radial-gradient(circle, #0067A1, #57C3FF);
     /* Couleur bleue du cercle */
@@ -9,7 +9,7 @@
     /* Arrondit les coins pour créer un cercle */
     position: absolute;
     /* Positionnement relatif pour permettre le décalage */
-    left: 900px;
+    left: 850px;
     /* Décalage horizontal pour créer l'effet coupé */
     top: -400px;
     /* Décalage vertical pour créer l'effet coupé */
@@ -19,6 +19,7 @@
 
 
 .container {
+    overflow: hidden;
     position: relative;
     z-index: 1;
 }
@@ -29,6 +30,7 @@
     bottom: -300px;
     z-index: 2;
     width: 40%;
+    top: 80px;
 
 }
 
@@ -38,6 +40,7 @@
     bottom: -220px;
     z-index: 1;
     width: 35%;
+    top: 20px;
 
 }
 

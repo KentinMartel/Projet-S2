@@ -2,7 +2,7 @@
     font-family: "inter";
     font-size: 18px;
     font-weight: bold;
-    top: 350px;
+    top: 490px;
     left: 40px;
     color: white;
     position: absolute;
@@ -19,7 +19,7 @@
 .fleche {
     width: 100px;
     left: 480px;
-    top: 370px;
+    top: 500px;
     position: absolute;
 
 }
