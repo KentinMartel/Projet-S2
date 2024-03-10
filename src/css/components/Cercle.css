@@ -1,5 +1,5 @@
 .circle {
-    width: 1350px;
+    width: 1250px;
     /* Largeur du cercle */
     height: 1250px;
     /* Hauteur du cercle */
@@ -9,9 +9,9 @@
     /* Arrondit les coins pour créer un cercle */
     position: absolute;
     /* Positionnement relatif pour permettre le décalage */
-    left: 850px;
+    left: 1150px;
     /* Décalage horizontal pour créer l'effet coupé */
-    top: -400px;
+    top: -200px;
     /* Décalage vertical pour créer l'effet coupé */
     z-index: -1;
     /* Assurez-vous que le cercle est derrière les autres éléments */
@@ -26,23 +26,47 @@
 
 .mockup1 {
     position: absolute;
-    left: 860px;
-    bottom: -300px;
+    left: 78%;
+    transform: translateX(-50%);
+    bottom: 5%;
+    /* Utilisation d'une unité relative (ajustez selon vos besoins) */
     z-index: 2;
     width: 40%;
-    top: 80px;
+    /* Utilisation d'une unité relative (ajustez selon vos besoins) */
 
+    top: 3%;
+    /* Utilisation d'une unité relative (ajustez selon vos besoins) */
+}
+
+/* Media Query pour les écrans de petite taille */
+@media screen and (max-width: 768px) {
+    .mockup1 {
+        width: 80%;
+        /* Ajustez la largeur selon vos besoins */
+        max-width: none;
+        /* Réinitialise la largeur maximale */
+        bottom: 10%;
+        /* Ajustez la position verticale selon vos besoins */
+        top: auto;
+        /* Réinitialise la position verticale */
+    }
 }
 
 .mockup2 {
     position: absolute;
-    left: 950px;
-    bottom: -220px;
+    left: 85%;
+    transform: translateX(-50%);
+    bottom: 5%;
+    /* Utilisation d'une unité relative (ajustez selon vos besoins) */
     z-index: 1;
-    width: 35%;
-    top: 20px;
+    width: 40%;
+    /* Utilisation d'une unité relative (ajustez selon vos besoins) */
 
+    top: 1%;
+    /* Utilisation d'une unité relative (ajustez selon vos besoins) */
 }
+
+
 
 .mockup3 {
     position: relative;
