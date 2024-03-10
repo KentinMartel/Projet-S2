@@ -84,3 +84,44 @@
     margin-left: 140px;
     margin-right: 800px;
 }
+
+.texte-question {
+    font-family: "inter";
+    font-size: 25px;
+    font-weight: bold;
+    margin: center;
+    padding: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.texte-autre {
+    font-family: "inter";
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 120px;
+}
+
+
+.card1-image {
+    filter: grayscale(100%);
+}
+
+.card2-image {
+    filter: grayscale(100%);
+}
+
+.card3-image {
+    filter: grayscale(100%);
+}
+
