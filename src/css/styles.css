@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
 
 
+
+
+
+
+/* Path: src/css/styles.css */
 
 @import "/src/css/components/faq.css";
 @import "/src/css/vendors/normalize.css";
@@ -10,3 +16,4 @@
 @import "/src/css/layout/main.css";
 @import "/src/css/components/Cercle.css";
 @import "/src/css/components/termes.css";
+@import "/src/css/components/buton.css";

@@ -1,0 +1,38 @@
+.inscrire {
+    font-family: "inter";
+    font-size: 18px;
+    font-weight: bold;
+    top: 350px;
+    left: 40px;
+    color: white;
+    position: absolute;
+    padding: 20px 120px;
+    border: none;
+    background: #57C3FF;
+    outline: none;
+    cursor: pointer;
+    border-radius: 100px;
+    margin-left: 100px;
+    box-shadow: 0 0 10px #57C3FF, 0 0 20px rgba(110, 140, 213, 0.3), 0 0 30px rgba(110, 140, 213, 0.2);
+}
+
+.fleche {
+    width: 100px;
+    left: 480px;
+    top: 370px;
+    position: absolute;
+
+}
+
+.fleche-texte {
+    font-family: "just", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+    top: 160px;
+    left: 450px;
+    position: inherit;
+    color: black;
+    margin-bottom: 400px;
+
+}
