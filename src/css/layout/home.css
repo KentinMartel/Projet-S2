@@ -2,17 +2,43 @@
     background: linear-gradient(352deg, #B2DAFF 3.72%, #FFF 96.43%);
     position: relative;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1__about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.section1__cards {
+    display: flex;
+    gap: 8rem;
+    justify-content: space-between;
+}
+
+.section1__about h2 {
+    margin: 0;
+
 }
 
 .section2 {
     background-color: var(--bleuclair100);
     text-align: center;
     padding: 5rem 0;
+    margin:
 }
 
 .section2 p {
     margin: 0;
     margin-bottom: 3rem;
+}
+
+.section3 {
+    padding: 3rem 0 8rem 0;
 }
 
 .section2 .convert_button {

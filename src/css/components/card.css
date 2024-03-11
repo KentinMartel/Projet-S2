@@ -1,0 +1,29 @@
+.section1__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    text-align: center;
+}
+
+.section1__card img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.section1__card i {
+    font-size: 4rem;
+    color: var(--bleuclair100)
+}
+
+.section1__card h3 {
+    padding: 0 1.2rem;
+}

@@ -35,6 +35,28 @@
                     <img src="/public/img/Mockup.webp" alt="Mockups Spate">
                 </div>
             </div>
+            <div class="section1__about container">
+                <h2>Pourquoi Spate ?</h2>
+                <p>Rencontrez, échangez, et excellez avec Spate - l'application web essentielle dédiée aux passionnés de sport et aux novices cherchant à débuter leur aventure sportive!</p>
+                <ul class="section1__cards">
+                    <li class="section1__card">
+                        <img src="/public/img/card1.webp" alt="Card 1">
+                        <i class="fa-solid fa-check"></i>
+                        <h3>Trouver des coéquipiers</h3>
+                    </li>
+                    <li class="section1__card">
+                        <img src="/public/img/card2.webp" alt="Card 2">
+                        <i class="fa-solid fa-check"></i>
+                        <h3>Des défis hehdomadaires</h3>
+                    </li>
+                    <li class="section1__card">
+                        <img src="/public/img/card3.webp" alt="Card 3">
+                        <i class="fa-solid fa-check"></i>
+                        <h3>Amuse-toi avec tes amis</h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="section1__features"></div>
         </div>
         <div class="section2">
             <p>Rejoignez notre communauté de passionnée.<br>Inscrivez-vous maintenant et faites de chaque séance d'entraînement une aventure sociale! 👟🌟</p>
@@ -43,12 +65,12 @@
         <div class="section3 container">
             <section>
                 <span class="line"></span>
-                <h2>Foire aux questions</h2>
+                <h2>Foire aux questions (FAQ)</h2>
                 <span class="line"></span>
             </section>
             <ul class="dropdown_faq">
-                <li x-data="{dropdown1: false}" @click="dropdown1 = ! dropdown1">
-                    <section>
+                <li x-data="{dropdown1: false}">
+                    <section @click="dropdown1 = ! dropdown1">
                         <h3>Pourquoi ?</h3>
                         <i :class="{'fa-solid fa-circle-chevron-up': dropdown1, 'fa-solid fa-circle-chevron-down': !dropdown1}"></i>
                     </section>
@@ -56,8 +78,8 @@
                         <p>Spate est une application web sociale pour les passionnés de sport. Rencontrez, échangez, progressez ensemble. Transformez votre parcours sportif en une expérience communautaire motivante !</p>
                     </div>
                 </li>
-                <li x-data="{dropdown2: false}" @click="dropdown2 = ! dropdown2">
-                    <section>
+                <li x-data="{dropdown2: false}">
+                    <section @click="dropdown2 = ! dropdown2">
                         <h3>Je n'ai jamais fait de sport.</h3>
                         <i :class="{'fa-solid fa-circle-chevron-up': dropdown2, 'fa-solid fa-circle-chevron-down': !dropdown2}"></i>
                     </section>
@@ -65,8 +87,8 @@
                         <p>Spate est une application web sociale pour les passionnés de sport. Rencontrez, échangez, progressez ensemble. Transformez votre parcours sportif en une expérience communautaire motivante !</p>
                     </div>
                 </li>
-                <li x-data="{dropdown3: false}" @click="dropdown3 = ! dropdown3">
-                    <section>
+                <li x-data="{dropdown3: false}">
+                    <section @click="dropdown3 = ! dropdown3">
                         <h3>Spate est-il gratuit ?</h3>
                         <i :class="{'fa-solid fa-circle-chevron-up': dropdown3, 'fa-solid fa-circle-chevron-down': !dropdown3}"></i>
                     </section>
@@ -75,8 +97,8 @@
                         Transformez votre parcours sportif en une expérience communautaire motivante !</p>
                     </div>
                 </li>
-                <li x-data="{dropdown4: false}" @click="dropdown4 = ! dropdown4">
-                    <section>
+                <li x-data="{dropdown4: false}">
+                    <section @click="dropdown4 = ! dropdown4">
                         <h3>Comment puis-je assurer ma confidentialité sur Spate ?</h3>
                         <i :class="{'fa-solid fa-circle-chevron-up': dropdown4, 'fa-solid fa-circle-chevron-down': !dropdown4}"></i>
                     </section>
@@ -85,8 +107,8 @@
                             Transformez votre parcours sportif en une expérience communautaire motivante !</p>
                     </div>
                 </li>
-                <li x-data="{dropdown5: false}" @click="dropdown5 = ! dropdown5">
-                    <section>
+                <li x-data="{dropdown5: false}">
+                    <section @click="dropdown5 = ! dropdown5">
                         <h3>Comment puis-je trouver des partenaires d'entraînement sur Spate ?</h3>
                         <i :class="{'fa-solid fa-circle-chevron-up': dropdown5, 'fa-solid fa-circle-chevron-down': !dropdown5}"></i>
                     </section>
