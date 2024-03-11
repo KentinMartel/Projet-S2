@@ -31,3 +31,34 @@
 .section1__card h3 {
     padding: 0 1.2rem;
 }
+
+.team__cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+
+}
+
+.team__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team__card img {
+    margin-bottom: 1rem;
+}
+
+.team__card h3 {
+    margin: 0;
+}
+
+.team__card span {
+    font-family: "Inter", sans-serif;
+    color: #0067A1;
+}
+
+.team__card i {
+    font-size: 2rem;
+}
