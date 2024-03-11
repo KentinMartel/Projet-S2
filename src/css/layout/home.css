@@ -22,14 +22,27 @@
 
 .section1__about h2 {
     margin: 0;
+}
 
+.section1__features > div{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+
+
+.section1__features > div > ul > li {
+    display: flex;
+}
+
+.section1__features>div>ul>li>section {
+    text-align: center;
 }
 
 .section2 {
     background-color: var(--bleuclair100);
     text-align: center;
     padding: 5rem 0;
-    margin:
 }
 
 .section2 p {
@@ -46,7 +59,7 @@
     color: #000;
 }
 
-.section3 > section {
+.title_line {
     display: flex;
     justify-content: center;
     align-items: center;
