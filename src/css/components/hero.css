@@ -2,10 +2,8 @@
     display: flex;
 }
 
-.hero > section
 
 .hero h1 {
-    font-size: 5rem;
     color: var(--bleuclair100);
     margin: 0;
 }
@@ -15,4 +13,20 @@
     color: #000;
     font-family: "Inter", sans-serif;
     font-weight: 700;
+}
+
+.hero__mockup {
+    border-radius: 100%;
+    background: linear-gradient(231deg, #0067A1 27.59%, #57C3FF 59.68%);
+    padding: 10rem;
+    position: relative;
+    z-index: 0;
+    bottom: 15rem;
+    right: -10rem;
+}
+
+.hero__mockup img {
+    position: relative; 
+    z-index: 1;
+    
 }

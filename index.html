@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Spate</title>
     <link rel="stylesheet" href="/src/css/styles.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <script src="https://kit.fontawesome.com/105988f00b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -16,15 +19,83 @@
         </nav>
     </header>
     <main>
-        <div class="hero container">
-            <div>
-                <section>
-                    <h1>SPATE</h1>
-                    <span>Prêt à nous rejoindre ?</span>
-                </section>
-                <p>Spate, l'appli web sociale pour les passionnés de sport. Rencontrez, échangez, progressez ensemble. Transformez votre
-                    parcours sportif en une expérience communautaire motivante !</p>
+        <div class="section1">
+            <div class="hero">
+                <div class="container">
+                    <section>
+                        <h1>SPATE</h1>
+                        <span>Prêt à nous rejoindre ?</span>
+                    </section>
+                    <p>Spate, l'appli web sociale pour les passionnés de sport. Rencontrez, échangez, progressez ensemble.
+                        Transformez votre
+                        parcours sportif en une expérience communautaire motivante !</p>
+                    <a class="convert_button" href="abonnement.html">S'inscrire</a>
+                </div>
+                <div class="hero__mockup">
+                    <img src="/public/img/Mockup.webp" alt="Mockups Spate">
+                </div>
             </div>
+        </div>
+        <div class="section2">
+            <p>Rejoignez notre communauté de passionnée.<br>Inscrivez-vous maintenant et faites de chaque séance d'entraînement une aventure sociale! 👟🌟</p>
+            <a class="convert_button" href="abonnement.html">Nous rejoindre</a>
+        </div>
+        <div class="section3 container">
+            <section>
+                <span class="line"></span>
+                <h2>Foire aux questions</h2>
+                <span class="line"></span>
+            </section>
+            <ul class="dropdown_faq">
+                <li x-data="{dropdown1: false}" @click="dropdown1 = ! dropdown1">
+                    <section>
+                        <h3>Pourquoi ?</h3>
+                        <i :class="{'fa-solid fa-circle-chevron-up': dropdown1, 'fa-solid fa-circle-chevron-down': !dropdown1}"></i>
+                    </section>
+                    <div x-show="dropdown1" x-collapse>
+                        <p>Spate est une application web sociale pour les passionnés de sport. Rencontrez, échangez, progressez ensemble. Transformez votre parcours sportif en une expérience communautaire motivante !</p>
+                    </div>
+                </li>
+                <li x-data="{dropdown2: false}" @click="dropdown2 = ! dropdown2">
+                    <section>
+                        <h3>Je n'ai jamais fait de sport.</h3>
+                        <i :class="{'fa-solid fa-circle-chevron-up': dropdown2, 'fa-solid fa-circle-chevron-down': !dropdown2}"></i>
+                    </section>
+                    <div x-show="dropdown2" x-collapse>
+                        <p>Spate est une application web sociale pour les passionnés de sport. Rencontrez, échangez, progressez ensemble. Transformez votre parcours sportif en une expérience communautaire motivante !</p>
+                    </div>
+                </li>
+                <li x-data="{dropdown3: false}" @click="dropdown3 = ! dropdown3">
+                    <section>
+                        <h3>Spate est-il gratuit ?</h3>
+                        <i :class="{'fa-solid fa-circle-chevron-up': dropdown3, 'fa-solid fa-circle-chevron-down': !dropdown3}"></i>
+                    </section>
+                    <div x-show="dropdown3" x-collapse>
+                    <p>Spate est une application web sociale pour les passionnés de sport. Rencontrez, échangez, progressez ensemble.
+                        Transformez votre parcours sportif en une expérience communautaire motivante !</p>
+                    </div>
+                </li>
+                <li x-data="{dropdown4: false}" @click="dropdown4 = ! dropdown4">
+                    <section>
+                        <h3>Comment puis-je assurer ma confidentialité sur Spate ?</h3>
+                        <i :class="{'fa-solid fa-circle-chevron-up': dropdown4, 'fa-solid fa-circle-chevron-down': !dropdown4}"></i>
+                    </section>
+                    <div x-show="dropdown4" x-collapse>
+                        <p>Spate est une application web sociale pour les passionnés de sport. Rencontrez, échangez, progressez ensemble.
+                            Transformez votre parcours sportif en une expérience communautaire motivante !</p>
+                    </div>
+                </li>
+                <li x-data="{dropdown5: false}" @click="dropdown5 = ! dropdown5">
+                    <section>
+                        <h3>Comment puis-je trouver des partenaires d'entraînement sur Spate ?</h3>
+                        <i :class="{'fa-solid fa-circle-chevron-up': dropdown5, 'fa-solid fa-circle-chevron-down': !dropdown5}"></i>
+                    </section>
+                    <div x-show="dropdown5" x-collapse>
+                        <p>Spate est une application web sociale pour les passionnés de sport. Rencontrez, échangez, progressez ensemble.
+                            Transformez votre parcours sportif en une expérience communautaire motivante !</p>
+                    </div>
+                </li>
+            </ul>
         </div>
     </main>
     <footer>

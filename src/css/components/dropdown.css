@@ -1,0 +1,37 @@
+.dropdown_faq {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+.dropdown_faq li {
+    padding: 1rem 2rem;
+    border: solid 1px #000;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.dropdown_faq li {
+    cursor: pointer;
+}
+
+.dropdown_faq > li i {
+    font-size: 1.8rem;
+}
+
+.dropdown_faq > li > section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdown_faq>li>section h3 {
+    margin: 0;
+}
