@@ -1,0 +1,18 @@
+.hero {
+    display: flex;
+}
+
+.hero > section
+
+.hero h1 {
+    font-size: 5rem;
+    color: var(--bleuclair100);
+    margin: 0;
+}
+
+.hero span {
+    font-size: 5rem;
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}

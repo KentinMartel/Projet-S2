@@ -1,93 +1,25 @@
 header {
     display: flex;
-    justify-content: space-between;
+    padding: 1.5rem 4rem;
     align-items: center;
-    padding: 10px 5%; 
+    justify-content: space-between;
+    background-color: #000;
 }
 
-.navbar {
+header > nav > a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+header > nav {
     display: flex;
-    justify-content: flex-end;
-    gap: 1%; 
-    flex-grow: 10;
-    align-items: center; 
+    gap: 4rem;
+    align-items: center;
 }
 
-
-
-.logo-header {
-    width: 120px;
-    margin-left: 40px;
-    margin-top: 20px;
-}
-
-.header-accueil {
-    color: #fff;
-    margin-right: 20px;
-    text-decoration: none;
-    font-family: "inter";
-    z-index: 2;
-}
-
-.header-accueilnoir {
-    color: #000;
-    margin-right: 20px;
-    text-decoration: none;
-    font-family: "inter";
-    z-index: 2;
-}
-
-.header-abonnement {
-    color: #fff;
-    margin-right: 20px;
-    text-decoration: none;
-    font-family: "inter";
-    z-index: 2;
-}
-.header-abonnementnoir {
-    color: #000;
-    margin-right: 20px;
-    text-decoration: none;
-    font-family: "inter";
-    z-index: 2;
-}
-
-.header-connexion {
-    padding: 1px 20px; /* Ajustez selon la taille souhaitée */
-    color: white; /* Couleur du texte */
-    border: 2px solid white; /* Style du contour : épaisseur, style, couleur */
-    border-radius: 20px; /* Rayon des coins du bouton */
-    text-decoration: none; /* Enlève le soulignement des liens */
-    transition: background-color 0.3s; /* Pour un effet de survol */
-    display: inline-block; /* Pour appliquer padding et autres propriétés de bloc */
-    cursor: pointer; /* Change le curseur pour indiquer qu'il est cliquable */
-}
-
-.header-connexionnoir {
-    color: #000;
-    text-decoration: none;
-    font-family: "inter";
-    z-index: 2;
-    padding: 1px 20px; /* Ajustez selon la taille souhaitée */
-    border: 2px solid black; /* Style du contour : épaisseur, style, couleur */
-    border-radius: 20px; /* Rayon des coins du bouton */
-    text-decoration: none; /* Enlève le soulignement des liens */
-    transition: background-color 0.3s; /* Pour un effet de survol */
-    display: inline-block; /* Pour appliquer padding et autres propriétés de bloc */
-    cursor: pointer; /* Change le curseur pour indiquer qu'il est cliquable */
-}
-
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #3498db;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.button:hover {
-    background-color: #2980b9;
+header > nav > a:last-child {
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    border: solid 2px #fff
 }
