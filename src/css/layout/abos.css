@@ -1,3 +1,33 @@
 .abos h1 {
     text-align: center;
 }
+
+.abos > ul {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.abos__bottom {
+    padding-bottom: 5rem;
+}
+
+.abos__bottom h2 {
+    text-align: center;
+}
+
+.abos__bottom > ul {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.abos__bottom > ul > li {
+    display: flex;
+    gap: 2rem;
+}
+
+.abos__bottom > ul > li img {
+    width: 20%;
+    height: auto;
+}
