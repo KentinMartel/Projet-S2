@@ -12,6 +12,7 @@
     align-items: center;
     text-align: center;
     gap: 2rem;
+    padding-bottom: 5rem;
 }
 
 .section1__cards {
@@ -24,19 +25,40 @@
     margin: 0;
 }
 
+.section1__features {
+    padding-bottom: 5rem;
+}
+
 .section1__features > div{
     display: flex;
     justify-content: space-between;
     gap: 2.5rem;
+    align-items: center;
 }
 
 
 .section1__features > div > ul > li {
     display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+.section1__features > div > ul > li > img {
+    width: 15%;
+    height: auto;
 }
 
 .section1__features>div>ul>li>section {
     text-align: center;
+}
+
+.section1__features>div>ul>li>section h4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.section1__features>div>ul>li>section p {
+    color: #767676;
 }
 
 .section2 {

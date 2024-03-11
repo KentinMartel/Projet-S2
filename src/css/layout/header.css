@@ -24,3 +24,14 @@ header > nav > a:last-child {
     padding: 0.5rem 1rem;
     border: solid 2px #fff
 }
+
+.header_black a {
+    color: #000;
+}
+
+.header_black nav > a:last-child {
+    color: #000;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    border: solid 2px #000
+}
