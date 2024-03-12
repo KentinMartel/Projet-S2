@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <script src="//unpkg.com/alpinejs" defer></script>
     <script src="https://kit.fontawesome.com/105988f00b.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <a href="index.html"><img src="/public/icons/Logo.webp" alt="Logo Spate"></a>
@@ -26,7 +28,8 @@
                         <h1>SPATE</h1>
                         <span>Prêt à nous rejoindre ?</span>
                     </section>
-                    <p>Spate, l'appli web sociale pour les passionnés de sport. Rencontrez, échangez, progressez ensemble.
+                    <p>Spate, l'appli web sociale pour les passionnés de sport. Rencontrez, échangez, progressez
+                        ensemble.
                         Transformez votre
                         parcours sportif en une expérience communautaire motivante !</p>
                     <a class="convert_button" href="abonnement.html">S'inscrire</a>
@@ -37,7 +40,8 @@
             </div>
             <div class="section1__about container">
                 <h2>Pourquoi Spate ?</h2>
-                <p>Rencontrez, échangez, et excellez avec Spate - l'application web essentielle dédiée aux passionnés de sport et aux novices cherchant à débuter leur aventure sportive!</p>
+                <p>Rencontrez, échangez, et excellez avec Spate - l'application web essentielle dédiée aux passionnés de
+                    sport et aux novices cherchant à débuter leur aventure sportive!</p>
                 <ul class="section1__cards">
                     <li class="section1__card">
                         <img src="/public/img/card1.webp" alt="Card 1">
@@ -129,7 +133,8 @@
             </div>
         </div>
         <div class="section2">
-            <p>Rejoignez notre communauté de passionnée.<br>Inscrivez-vous maintenant et faites de chaque séance d'entraînement une aventure sociale! 👟🌟</p>
+            <p>Rejoignez notre communauté de passionnée.<br>Inscrivez-vous maintenant et faites de chaque séance
+                d'entraînement une aventure sociale! 👟🌟</p>
             <a class="convert_button" href="abonnement.html">Nous rejoindre</a>
         </div>
         <div class="section3 container">
@@ -142,49 +147,74 @@
                 <li x-data="{dropdown1: false}">
                     <section @click="dropdown1 = ! dropdown1">
                         <h3>Pourquoi ?</h3>
-                        <i :class="{'fa-solid fa-circle-chevron-up': dropdown1, 'fa-solid fa-circle-chevron-down': !dropdown1}"></i>
+                        <i
+                            :class="{'fa-solid fa-circle-chevron-up': dropdown1, 'fa-solid fa-circle-chevron-down': !dropdown1}"></i>
                     </section>
                     <div x-show="dropdown1" x-collapse>
-                        <p>Spate est une application web sociale pour les passionnés de sport. Rencontrez, échangez, progressez ensemble. Transformez votre parcours sportif en une expérience communautaire motivante !</p>
+                        <p>Spate a été créé pour rassembler les passionnés de sport et offrir une plateforme sociale où
+                            ils peuvent se connecter,
+                            échanger des expériences, trouver des partenaires d'entraînement et s'inspirer mutuellement.
+                            Notre objectif est de créer
+                            une communauté dynamique qui célèbre le sport comme un mode de vie, quels que soient le
+                            niveau d'expérience ou les
+                            objectifs de chacun</p>
                     </div>
                 </li>
                 <li x-data="{dropdown2: false}">
                     <section @click="dropdown2 = ! dropdown2">
                         <h3>Je n'ai jamais fait de sport.</h3>
-                        <i :class="{'fa-solid fa-circle-chevron-up': dropdown2, 'fa-solid fa-circle-chevron-down': !dropdown2}"></i>
+                        <i
+                            :class="{'fa-solid fa-circle-chevron-up': dropdown2, 'fa-solid fa-circle-chevron-down': !dropdown2}"></i>
                     </section>
                     <div x-show="dropdown2" x-collapse>
-                        <p>Spate est une application web sociale pour les passionnés de sport. Rencontrez, échangez, progressez ensemble. Transformez votre parcours sportif en une expérience communautaire motivante !</p>
+                        <p>Quelle que soit votre expérience sportive, Spate est là pour vous accompagner dans votre
+                            toute première aventure
+                            sportive. Notre communauté accueille chaleureusement les débutants, offrant un espace
+                            convivial pour découvrir,
+                            apprendre et trouver le soutien nécessaire pour débuter votre parcours sportif.
+                            Rejoignez-nous, car chez Spate, chaque
+                            premier pas vers le sport est une victoire à célébrer ensemble!</p>
                     </div>
                 </li>
                 <li x-data="{dropdown3: false}">
                     <section @click="dropdown3 = ! dropdown3">
                         <h3>Spate est-il gratuit ?</h3>
-                        <i :class="{'fa-solid fa-circle-chevron-up': dropdown3, 'fa-solid fa-circle-chevron-down': !dropdown3}"></i>
+                        <i
+                            :class="{'fa-solid fa-circle-chevron-up': dropdown3, 'fa-solid fa-circle-chevron-down': !dropdown3}"></i>
                     </section>
                     <div x-show="dropdown3" x-collapse>
-                    <p>Spate est une application web sociale pour les passionnés de sport. Rencontrez, échangez, progressez ensemble.
-                        Transformez votre parcours sportif en une expérience communautaire motivante !</p>
+                        <p>Oui, l'inscription et l'utilisation de base de Spate sont gratuites. Cependant, certaines
+                            fonctionnalités avancées
+                            peuvent être proposées via des abonnements premium pour une expérience encore plus
+                            enrichissante.</p>
                     </div>
                 </li>
                 <li x-data="{dropdown4: false}">
                     <section @click="dropdown4 = ! dropdown4">
                         <h3>Comment puis-je assurer ma confidentialité sur Spate ?</h3>
-                        <i :class="{'fa-solid fa-circle-chevron-up': dropdown4, 'fa-solid fa-circle-chevron-down': !dropdown4}"></i>
+                        <i
+                            :class="{'fa-solid fa-circle-chevron-up': dropdown4, 'fa-solid fa-circle-chevron-down': !dropdown4}"></i>
                     </section>
                     <div x-show="dropdown4" x-collapse>
-                        <p>Spate est une application web sociale pour les passionnés de sport. Rencontrez, échangez, progressez ensemble.
-                            Transformez votre parcours sportif en une expérience communautaire motivante !</p>
+                        <p>Oui, l'inscription et l'utilisation de base de Spate sont gratuites. Cependant, certaines
+                            fonctionnalités avancées
+                            peuvent être proposées via des abonnements premium pour une expérience encore plus
+                            enrichissante.</p>
                     </div>
                 </li>
                 <li x-data="{dropdown5: false}">
                     <section @click="dropdown5 = ! dropdown5">
                         <h3>Comment puis-je trouver des partenaires d'entraînement sur Spate ?</h3>
-                        <i :class="{'fa-solid fa-circle-chevron-up': dropdown5, 'fa-solid fa-circle-chevron-down': !dropdown5}"></i>
+                        <i
+                            :class="{'fa-solid fa-circle-chevron-up': dropdown5, 'fa-solid fa-circle-chevron-down': !dropdown5}"></i>
                     </section>
                     <div x-show="dropdown5" x-collapse>
-                        <p>Spate est une application web sociale pour les passionnés de sport. Rencontrez, échangez, progressez ensemble.
-                            Transformez votre parcours sportif en une expérience communautaire motivante !</p>
+                        <p>Utilisez notre fonction de recherche avancée pour trouver des membres partageant vos intérêts
+                            sportifs. Vous pouvez
+                            également rejoindre des groupes spécifiques à chaque sport et participer à des discussions
+                            pour rencontrer de nouveaux
+                            partenaires.
+                        </p>
                     </div>
                 </li>
             </ul>
@@ -196,13 +226,14 @@
             <div>
                 <p>Organisation</p>
                 <nav>
-                    <a href="">Abonnement</a>
-                    <a href="">Contact</a>
-                    <a href="">Termes & conditions</a>
+                    <a href="abonnement.html">Abonnement</a>
+                    <a href="apropos.html">Contact</a>
+                    <a href="termes.html">Termes & conditions</a>
                 </nav>
             </div>
         </div>
         <p>© 2023 - 2024 Spate Inc.</p>
     </footer>
 </body>
+
 </html>
